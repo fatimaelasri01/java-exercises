@@ -40,7 +40,7 @@ public class Rectangle {
     //isExist
     public boolean IsExist (double x, double y)
     {
-        return (x >= this.x1 && x <= this.x1 + width && y <= this.y1 && y >= this.y1 + height);
+        return (x >= this.x1 && x <= this.x1 + width && y <= this.y1 && y >= this.y1 - height);
     }
     //Getters
     public double getX1()
