@@ -1,5 +1,4 @@
 package malika_solutions;
-
 public class addition {
     double nb1;
     double nb2;
