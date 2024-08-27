@@ -1,4 +1,5 @@
-package malika_solutions;
+package malika_solutions.Calculator;
+
 public class addition {
     double nb1;
     double nb2;

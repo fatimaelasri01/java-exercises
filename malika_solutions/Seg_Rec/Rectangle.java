@@ -1,5 +1,4 @@
-package malika_solutions;
-
+package malika_solutions.Seg_Rec;
 
 public class Rectangle {
     // Attributes

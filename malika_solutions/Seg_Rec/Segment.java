@@ -1,12 +1,11 @@
-package malika_solutions;
-
+package malika_solutions.Seg_Rec;
 
 public class Segment {
     //Attributes
-    double x1;
-    double y1;
-    double x2;
-    double y2;
+    private double x1;
+    private double y1;
+    private double x2;
+    private double y2;
     //Constructor
     Segment (double x1, double y1, double x2, double y2) 
     {

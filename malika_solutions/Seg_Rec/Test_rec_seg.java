@@ -1,5 +1,4 @@
-package malika_solutions;
-
+package malika_solutions.Seg_Rec;
 
 public class Test_rec_seg {
     public static void main(String[] args) {

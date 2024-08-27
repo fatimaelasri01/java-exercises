@@ -1,4 +1,4 @@
-package malika_solutions;
+package malika_solutions.Calculator;
 
 public class soustraction {
     double nb1;

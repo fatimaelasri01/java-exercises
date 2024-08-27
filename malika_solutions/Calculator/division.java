@@ -1,4 +1,4 @@
-package malika_solutions;
+package malika_solutions.Calculator;
 
 public class division {
     double nb1;

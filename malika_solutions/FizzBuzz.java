@@ -1,4 +1,5 @@
 package malika_solutions;
+
 public class FizzBuzz {
     public static void main(String[] args) 
     {

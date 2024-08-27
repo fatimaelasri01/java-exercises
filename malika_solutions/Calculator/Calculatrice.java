@@ -1,4 +1,5 @@
-package malika_solutions;
+package malika_solutions.Calculator;
+
 import java.util.Scanner;
 public class Calculatrice {
     public static void main(String[] args)
