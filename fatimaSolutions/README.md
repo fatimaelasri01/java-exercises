@@ -1,6 +1,6 @@
 ### fatimaSolutions
 
-## Description:
+#### Description:
 This directory contains my solutions to various Java exercises proposed in this repository, covering key programming concepts.
 
 ---
