@@ -48,7 +48,7 @@ public class Rectangle {
     }
 
     public boolean contient(int x, int y) {
-        return ((this.x <= x && x <= this.x + this.largeur) && (this.y <= y && y <= this.y + this.hauteur));
+        return ((this.x <= x && x <= this.x + this.largeur) && (this.y <= y && y >= this.y - this.hauteur));
     }
 
     public String toString() {
