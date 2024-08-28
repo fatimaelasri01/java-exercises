@@ -1,4 +1,4 @@
-package fExercises.rectSeg;
+package fatimaSolutions.rectSeg;
 
 public class Rectangle {
     private int x, y;

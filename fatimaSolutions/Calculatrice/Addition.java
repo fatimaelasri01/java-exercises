@@ -1,4 +1,4 @@
-package fExercises.Calculatrice;
+package fatimaSolutions.Calculatrice;
 
 public class Addition {
     public static int addition(int a, int b) {

@@ -1,4 +1,4 @@
-package fExercises.Calculatrice;
+package fatimaSolutions.Calculatrice;
 
 import java.util.Scanner;
 
