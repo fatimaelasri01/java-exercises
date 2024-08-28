@@ -51,12 +51,15 @@ public class Rectangle {
         return ((this.x <= x && x <= this.x + this.largeur) && (this.y <= y && y >= this.y - this.hauteur));
     }
 
+    @Override
     public String toString() {
         return "Rectangle[x = " + x + ", y = " + y + ", hauteur = " + hauteur + ", largeur = " + largeur + "]";
     }
    
-    public String equals(Rectangle r) {
-        return ((this.x == r.x && this.y == r.y && this.hauteur == r.hauteur && this.largeur == r.largeur) ? "Les deux rectangles sont égaux" : "Les deux rectangles ne sont pas égaux");
+    @Override
+    public boolean equals(Object obj) {
+        Rectangle r = (Rectangle) obj;
+        return (this.x == r.x && this.y == r.y && this.hauteur == r.hauteur && this.largeur == r.largeur);
     }
 
     public Rectangle clone() {

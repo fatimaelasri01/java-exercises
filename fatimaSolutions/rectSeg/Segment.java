@@ -49,12 +49,15 @@ public class Segment {
         this.y2 += dy;
     }
 
+    @Override
     public String toString() {
         return "Segment[x1 = " + x1 + ", y1 = " + y1 + ", x2 = " + x2 + ", y2 = " + y2 + "]";
     }
 
-    public String equals(Segment s) {
-        return ((this.x1 == s.x1 && this.y1 == s.y1 && this.x2 == s.x2 && this.y2 == s.y2) ? "Les deux segments sont égaux" : "Les deux segments ne sont pas égaux");
+    @Override
+    public boolean equals(Object obj) {
+        Segment s = (Segment) obj;
+        return (this.x1 == s.x1 && this.y1 == s.y1 && this.x2 == s.x2 && this.y2 == s.y2);
     }
 
     public Segment clone() {
